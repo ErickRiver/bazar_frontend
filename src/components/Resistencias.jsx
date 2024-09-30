@@ -105,6 +105,7 @@ const Resistencias = () => {
             </div>
 
             <h2>Valor de Resistencia: {obtenerResistencia()}</h2>
+            <h3>Erick Saul Rivera Chagoya - IDGS 1002</h3>
         </div>
     );
 }
