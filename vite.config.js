@@ -13,9 +13,9 @@ export default defineConfig({
       injectRegister: 'auto',
       includeAssets:['/android','/ios','/windows11'],
       manifest: {
-        name: 'RESISTENCIAS PWA',
-        short_name: 'RESISTENCIAS PWA',
-        description: 'REACT AND VIRE RESISTENCIAS PWA',
+        name: 'BAZAR',
+        short_name: 'BAZAR',
+        description: 'BAZAR',
         theme_color: '#ffffff',
         icons: [
           {

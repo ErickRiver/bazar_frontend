@@ -1,0 +1,82 @@
+/* Contenedor principal de la lista de ventas */
+.sales-list-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+/* Estilos para cada tarjeta de venta */
+.sale-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.sale-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Título del producto */
+.sale-product-title {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Fecha de la venta */
+.sale-date {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Cantidad de la venta */
+.sale-quantity {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Precio total de la venta */
+.sale-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #28a745;
+}
+
+/* Estilos para el mensaje de carga */
+.loading {
+    font-size: 1.25rem;
+    text-align: center;
+    color: #007bff;
+}
+
+/* Estilos para los mensajes de error */
+.error {
+    font-size: 1.25rem;
+    text-align: center;
+    color: #dc3545;
+}
+
+/* Mensaje cuando no hay ventas */
+.no-sales {
+    font-size: 1.25rem;
+    text-align: center;
+    color: #6c757d;
+}
+
+.container-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-thumbnail {
+    width: 50%;
+}
